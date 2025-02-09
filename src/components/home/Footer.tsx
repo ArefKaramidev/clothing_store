@@ -11,8 +11,8 @@ import googlepay from "../../assets/googlePay.svg";
 const Footer = () => {
   return (
     <footer>
-      <div className="grid grid-cols-5 gap-x-10 mt-20 mx-32">
-        <div className="flex flex-col items-start gap-y-5">
+      <div className="grid xl:grid-cols-5 xl:grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-rows-2 lg:grid-cols-3 grid-rows-5 gap-10 mt-20 lg:mx-32 place-items-center grid-flow-col">
+        <div className="flex flex-col items-start gap-y-5 w-80 ">
           <span className="font-extrabold text-4xl">SHOP.CO</span>
           <span className="w-72 text-gray-500">
             We have clothes that suits your style and which you’re proud to
@@ -59,11 +59,11 @@ const Footer = () => {
       </div>
       <hr className="text-gray-300 mt-20 mx-32" />
 
-      <div className="flex items-center justify-between mx-32 my-5">
+      <div className="flex items-center justify-between mx-32 my-5 flex-wrap">
         <span className="text-gray-500">
           Shop.co © 2000-2023, All Rights Reserved
         </span>
-        <div className="flex items-center gap-x-2">
+        <div className="flex items-center gap-x-2 flex-wrap">
           <img src={visa} alt="visa-icon" />
           <img src={papal} alt="mastercard-icon" />
           <img src={papal2} alt="papal-icon" />

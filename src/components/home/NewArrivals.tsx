@@ -7,7 +7,7 @@ const NewArrivals = () => {
       <span className="font-extrabold text-5xl mt-24 inline-block">
         NEW ARRIVALS
       </span>
-      <div className="flex items-center justify-evenly mt-20 flex-wrap">
+      <div className="flex items-center justify-evenly mt-20 flex-wrap gap-y-10">
         {products.map((item) =>
           item.categury == "simple" ? (
             <Card

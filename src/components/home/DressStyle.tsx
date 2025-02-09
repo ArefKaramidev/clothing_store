@@ -4,11 +4,11 @@ const DressStyle = () => {
       <span className="text-5xl font-extrabold mb-10">
         BROWSE BY DRESS STYLE
       </span>
-      <div className="flex items-center gap-x-5 flex-wrap">
+      <div className="flex items-center gap-5 flex-wrap">
         <img src="/casual.png" alt="casual-style" />
         <img src="/formal.png" alt="formal-style" />
       </div>
-      <div className="flex items-center gap-x-5 flex-wrap">
+      <div className="flex items-center gap-5 flex-wrap">
         <img src="/party.png" alt="party-style" />
         <img src="/gym.png" alt="gym-style" />
       </div>

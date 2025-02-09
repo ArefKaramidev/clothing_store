@@ -4,10 +4,8 @@ import Card from "./card";
 const TopSell = () => {
   return (
     <div className="text-center">
-      <span className="font-extrabold text-5xl  inline-block">
-        TOP SELLING
-      </span>
-      <div className="flex items-center justify-evenly mt-20 flex-wrap">
+      <span className="font-extrabold text-5xl inline-block">TOP SELLING</span>
+      <div className="flex items-center justify-evenly mt-20 flex-wrap gap-y-10">
         {products.map((item) =>
           item.categury == "top_sell" ? (
             <Card
