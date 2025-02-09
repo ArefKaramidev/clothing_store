@@ -59,7 +59,7 @@ export const products: productData[] = [
     id: 7,
     image: "/image7.png",
     productName: "LOOSE FIT BERMUDA SHORTS",
-    quality: "/quality3.png",
+    quality: "/quality3.5.png",
     price: 80,
     count: 1,
     categury: "top_sell",

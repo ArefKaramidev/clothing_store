@@ -1,15 +1,15 @@
 import { products } from "../../constants/products";
 import Card from "./card";
 
-const NewArrivals = () => {
+const TopSell = () => {
   return (
     <div className="text-center">
-      <span className="font-extrabold text-5xl mt-24 inline-block">
-        NEW ARRIVALS
+      <span className="font-extrabold text-5xl  inline-block">
+        TOP SELLING
       </span>
       <div className="flex items-center justify-evenly mt-20 flex-wrap">
         {products.map((item) =>
-          item.categury == "simple" ? (
+          item.categury == "top_sell" ? (
             <Card
               image={item.image}
               price={item.price}
@@ -22,9 +22,8 @@ const NewArrivals = () => {
       <button className="rounded-full px-5 py-3 bg-white text-lg border border-gray-300 cursor-pointer w-60 mt-16">
         View All
       </button>
-      <hr className="my-20 container mx-auto text-gray-300" />
     </div>
   );
 };
 
-export default NewArrivals;
+export default TopSell;
