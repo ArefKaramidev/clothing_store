@@ -35,7 +35,7 @@ const HeroSection = () => {
               Shop Now
             </button>
           </div>
-          <div className="flex items-center xl:gap-x-20 mt-10 gap-5 flex-wrap lg:flex-nowrap justify-center md:hidden xl:flex">
+          <div className="flex items-center xl:gap-x-20 mt-10 xl:mt-20 gap-5 flex-wrap lg:flex-nowrap justify-center md:hidden xl:flex">
             <div className="flex flex-col">
               <span className="text-black font-bold text-5xl">200+</span>
               <span className="text-gray-500 w-36">International Brands</span>
