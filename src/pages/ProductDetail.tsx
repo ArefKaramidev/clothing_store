@@ -1,9 +1,13 @@
+import ProductInfo from "../components/productDetail/ProductInfo";
 import Slider from "../components/productDetail/Slider";
 
 const ProductDetail = () => {
   return (
-    <Slider/>
-  )
+    <div>
+      <Slider />
+      
+    </div>
+  );
 };
 
 export default ProductDetail;
