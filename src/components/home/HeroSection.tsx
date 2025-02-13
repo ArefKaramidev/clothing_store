@@ -13,7 +13,11 @@ const HeroSection = () => {
           alt="vector"
           className="absolute xl:right-36 xl:top-32 w-16 xl:32 top-[37rem] right-10 lg:hidden xl:inline-block"
         />
-        <img src="/model.png" alt="model" className="w-[100vw]" />
+        <img
+          src="/model.png"
+          alt="model"
+          className="w-[100vw] hidden md:inline-block"
+        />
         <img src="/model-mobile.png" alt="model" className="w-full sm:hidden" />
         <img
           src="/vector.png"

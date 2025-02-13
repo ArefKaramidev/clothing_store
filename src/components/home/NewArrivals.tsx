@@ -1,5 +1,5 @@
 import { products } from "../../constants/products";
-import Card from "./card";
+import Card from "./Card";
 
 const NewArrivals = () => {
   return (
@@ -11,6 +11,8 @@ const NewArrivals = () => {
         {products.map((item) =>
           item.categury == "simple" ? (
             <Card
+              key={item.id}
+              id={item.id}
               image={item.image}
               price={item.price}
               productName={item.productName}
